@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.krivic.petagramt43.NotificationActivity"
+    >
+<include android:id="@+id/miActionBar"
+    layout="@layout/action_bar"
+    ></include>
+
+<TextView
+    android:id="@+id/notiffff"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingTop="20sp"
+    android:text="Notificaciones"
+    android:textColor="@color/colorDivider"
+    android:textSize="18sp"
+    android:textStyle="bold" />
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+    <android.widget.Button
+        android:id="@+id/notiButton"
+
+        android:text="@string/txt_btn_notif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:onClick="onClickSendButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        >
+
+    </android.widget.Button>
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

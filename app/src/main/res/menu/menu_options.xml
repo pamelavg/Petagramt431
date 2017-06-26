@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_opt_contact"
+        android:title="@string/txt_menu_opt_contact"
+        android:orderInCategory="1"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menu_opt_about"
+        android:title="@string/txt_menu_opt_about"
+        android:orderInCategory="2">
+    </item>
+
+    <item
+        android:id="@+id/menu_opt_config"
+        android:title="@string/txt_menu_opt_config"
+        android:orderInCategory="3">
+    </item>
+
+    <item
+        android:id="@+id/menu_opt_pushNotification"
+        android:title="@string/txt_menu_opt_pushNotification"
+        android:orderInCategory="4">
+    </item>
+
+    <item
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgBtn_star"
+
+        android:title="Refresh"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:icon="@drawable/star_5"    />
+
+</menu>

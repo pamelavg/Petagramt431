@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- cardview_mascota. -->
+    <dimen name="cv_mascota_margin_button">10dp</dimen>
+    <dimen name="cv_corner_radious">4dp</dimen>
+
+    <!-- app-bar_mascota. -->
+    <dimen name="elevation_action_bar">4dp</dimen>
+</resources>

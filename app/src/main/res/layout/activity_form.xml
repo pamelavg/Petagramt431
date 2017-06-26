@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.krivic.petagramt43.FormActivity"
+    >
+    <include android:id="@+id/miActionBar"
+        layout="@layout/action_bar"
+        ></include>
+
+    <TextView
+        android:id="@+id/titulocontacto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="20sp"
+        android:text="Contactos"
+        android:textColor="@color/colorDivider"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/text_input_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_name"
+            android:textColor="@color/colorDivider"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/text_input_email"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_email"
+
+            android:textColor="@color/colorDivider"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/text_input_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/form_message"
+            android:textColor="@color/colorDivider"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <android.widget.Button
+            android:id="@+id/btn_Form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/form_btn"
+            android:gravity="bottom"
+            android:onClick="onClickSendButton"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            >
+
+        </android.widget.Button>
+    </LinearLayout>
+
+</LinearLayout>
